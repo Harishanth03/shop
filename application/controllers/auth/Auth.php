@@ -69,9 +69,8 @@ class Auth extends CI_Controller
       }
     }
 
-    $this->session->set_flashdata('error', 'User not found.');
+    $this->session->set_flashdata('error', 'user not founded.');
     redirect('login');
-    return;
   }
 
 }
